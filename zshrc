@@ -72,3 +72,4 @@ export EDITOR=code
 export PYTHONBREAKPOINT=ipdb.set_trace
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+PATH="${HOME}/.rbenv/shims:$PATH"
